@@ -1,0 +1,57 @@
+<view class="slide-edge">
+	<view class="content">
+		<view class="top-block">
+			<view class="top">
+				<view class="vip-top">
+					<view class="left">开通黑胶VIP</view>
+					<view class="right">会员中心</view>
+				</view>
+				<view class="texts">加入黑胶VIP，立享超12项专属特权</view>
+			</view>
+			<view class="bottom">
+				<view class="bottom-lt">
+					<view class="lt-top">首页仅5元</view>
+					<view class="lt-bottom">尊享现场音效，体验最high音乐氛围</view>
+				</view>
+				<view class="bottom-rt">
+					<image src="../../images/more.png"></image>
+				</view>
+			</view>
+		</view>
+
+		<view class="bottom-block">
+			<view class="bom-login">
+				<text>手机电脑多端同步，尽享海量高品质音乐</text>
+				<view class="login">立即登录</view>
+			</view>
+			<view class="bom-seting">
+				<view class="lis" wx:for="{{setingList}}" wx:key="index">
+					<text class="iconfont {{item.icon}} icons"></text>
+					<text class="names">{{item.name}}</text>
+				</view>
+			</view>
+			<view class="bom-nav">
+				<view class="lis" wx:for="{{navList}}" wx:key="index">
+					<view class="nav-lt">
+						<text class="iconfont {{item.icon}} icons"></text>
+						<text class="names">{{item.name}}</text>
+					</view>
+					<text class="decs">{{item.dec}}</text>
+				</view>
+				<view class="lis">
+					<view class="nav-lt">
+						<text class="iconfont icon-wodedingdan icons"></text>
+						<text class="names">我的订单</text>
+					</view>
+				</view>
+			</view>
+			<view class="bom-operation">
+				<view class="lis" wx:for="{{operationList}}" wx:key="index">
+					<text class="iconfont {{item.icon}} icons"></text>
+					<text class="names">{{item.name}}</text>
+				</view>
+			</view>
+		</view>
+
+	</view>
+</view>

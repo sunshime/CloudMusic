@@ -1,0 +1,172 @@
+<view class="find">
+	<swiper indicator-dots indicator-active-color="#E33437" autoplay circular>
+		<swiper-item wx:for="{{swiperList}}" wx:key="index" class="items">
+			<image src="{{item}}"></image>
+		</swiper-item>
+	</swiper>
+
+	<view class="navs">
+		<view class="navs-item" wx:for="{{navList}}" wx:key="index">
+			<text class="iconfont {{item.icon}} nav-icons"></text>
+			<text class="nav-texts">{{item.name}}</text>
+		</view>
+	</view>
+
+	<view class="content">
+		<view>
+			<view class="title-block">
+				<view class="small-title">推荐歌单</view>
+				<view class="dec-title">
+					<view class="dec-lt">为你精挑细选</view>
+					<view class="dec-rt">
+						<!-- <text class="iconfont icon-icon--1 dec-rt-icon"></text> -->
+						<text>查看更多</text>
+					</view>
+				</view>
+			</view>
+			<swiper display-multiple-items="3" previous-margin="{{marginNum}}rpx" class="swipers">
+				<swiper-item wx:for="{{swiperList}}" wx:key="index" class="tuijian-items">
+					<view class="item">
+						<image src="{{item}}"></image>
+						<text class="ellips text">第三方开发刚开始的个就绝对是法接口都是第三方</text>
+					</view>
+				</swiper-item>
+			</swiper>
+		</view>
+		<view>
+			<view class="title-block">
+				<view class="small-title">风格推荐</view>
+				<view class="dec-title">
+					<view class="dec-lt">欧美流行精选</view>
+					<view class="dec-rt">
+						<text class="iconfont icon-icon--1 dec-rt-icon"></text>
+						<text>播放全部</text>
+					</view>
+				</view>
+			</view>
+			<swiper previous-margin="{{marginNum}}rpx" next-margin="{{nextMarginNum}}rpx" class="style-swipers">
+				<swiper-item wx:for="{{swiperList}}" wx:key="index" class="style-items">
+					<block class="block">
+						<view class="swiper-lis" wx:for="{{[1,1,1]}}" wx:for="items">
+							<view class="items-lt">
+								<image src="../../images/swiper/1.jpg" class="style-img"></image>
+								<view class="style-text">
+									<view class="text-top ellips1">
+										<text class="title">Love Songs</text>
+										<text class="name"> - kaash paige</text>
+									</view>
+									<text class="ellips1 desc">月亮是隐喻 所有本体都是你</text>
+								</view>
+							</view>
+							<view class="iconfont icon-bofang1 icon-rt"></view>
+						</view>
+					</block>
+				</swiper-item>
+			</swiper>
+		</view>
+		<view>
+			<view class="title-block">
+				<view class="small-title">场景推荐</view>
+				<view class="dec-title">
+					<view class="dec-lt">爱上音乐为伴的下午</view>
+					<view class="dec-rt">
+						<!-- <text class="iconfont icon-icon--1 dec-rt-icon"></text> -->
+						<text>查看更多</text>
+					</view>
+				</view>
+			</view>
+			<swiper display-multiple-items="3" previous-margin="{{marginNum}}rpx" class="swipers">
+				<swiper-item wx:for="{{swiperList}}" wx:key="index" class="tuijian-items">
+					<view class="item">
+						<image src="{{item}}"></image>
+						<text class="ellips text">春夏限定音乐饮品欢迎品尝</text>
+					</view>
+				</swiper-item>
+			</swiper>
+		</view>
+		<view>
+			<view class="title-block">
+				<view class="small-title">云村精选</view>
+				<view class="dec-title">
+					<view class="dec-lt">满怀希望就会所向披靡</view>
+					<view class="dec-rt">
+						<!-- <text class="iconfont icon-icon--1 dec-rt-icon"></text> -->
+						<text>查看更多</text>
+					</view>
+				</view>
+			</view>
+			<swiper display-multiple-items="3" previous-margin="{{marginNum}}rpx" class="swipers yuncun">
+				<swiper-item wx:for="{{swiperList}}" wx:key="index" class="tuijian-items">
+					<view class="item">
+						<image src="{{item}}"></image>
+						<text class="ellips1 text">第三方开发刚开始的个就绝对是法接口都是第三方</text>
+						<view class="detail">
+							<image class="icon-img" src="../../images/disk.png"></image>
+							<view class="detail-text">
+								<view class="ellips1 detail-name">雨果hah s</view>
+								<view class="ellips1 detail-num">1046赞</view>
+							</view>
+						</view>
+					</view>
+				</swiper-item>
+			</swiper>
+		</view>
+		<view>
+			<view class="title-block">
+				<view class="small-title">语音直播</view>
+				<view class="dec-title">
+					<view class="dec-lt">你喜欢的声音 这里都有</view>
+					<view class="dec-rt">
+						<!-- <text class="iconfont icon-icon--1 dec-rt-icon"></text> -->
+						<text>查看更多</text>
+					</view>
+				</view>
+			</view>
+			<swiper display-multiple-items="3" previous-margin="{{marginNum}}rpx" class="swipers yuncun">
+				<swiper-item wx:for="{{swiperList}}" wx:key="index" class="tuijian-items">
+					<view class="item">
+						<image src="{{item}}"></image>
+						<text class="ellips1 text">第三方开发刚开始的个就绝对是法接口都是第三方</text>
+						<view class="detail">
+							<image class="icon-img" src="../../images/disk.png"></image>
+							<view class="detail-text ellips1">雨果hah s</view>
+						</view>
+					</view>
+				</swiper-item>
+			</swiper>
+		</view>
+
+		<view>
+			<view class="title-block">
+				<view class="small-title">排行榜</view>
+				<view class="dec-title">
+					<view class="dec-lt">热歌风向标</view>
+					<view class="dec-rt">
+						<!-- <text class="iconfont icon-icon--1 dec-rt-icon"></text> -->
+						<text>查看更多</text>
+					</view>
+				</view>
+			</view>
+			<swiper previous-margin="{{marginNum}}rpx" next-margin="{{nextMarginNum}}rpx" class="style-swipers">
+				<swiper-item wx:for="{{swiperList}}" wx:key="index" class="style-items">
+					<block class="block">
+						<view class="swiper-lis" wx:for="{{[1,1,1]}}" wx:for="items">
+							<view class="items-lt">
+								<image src="../../images/swiper/1.jpg" class="style-img"></image>
+								<view class="style-text">
+									<view class="text-top">
+										<text class="title">{{index+1}} Love Songs</text>
+										<text class="name"> - kaash paige</text>
+									</view>
+								</view>
+							</view>
+							<view class="iconfont icon-bofang1 icon-rt"></view>
+						</view>
+					</block>
+				</swiper-item>
+			</swiper>
+		</view>
+
+	</view>
+
+</view>

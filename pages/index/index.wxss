@@ -1,25 +1,76 @@
-/**index.wxss**/
-.userinfo {
+/* pages/uplink/uplink.wxss */
+.home {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.home .title {
+  font-size: 34rpx;
+  color: #333;
+  padding-top: 60rpx;
+  text-align: center;
+  line-height: 100rpx;
+}
+
+.nav-content {
   display: flex;
-  flex-direction: column;
+  width: 100vw;
+  /* background-color: azure; */
+  /* padding: 0 50rpx; */
+  justify-content: space-around;
   align-items: center;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.lists{
+  width: 40rpx;
+  height: 40rpx;
+  padding-left: 20rpx;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.lists image{
+  width: 40rpx;
+  height: 40rpx;
+  display: block;
 }
 
-.usermotto {
-  margin-top: 200px;
+.icons {
+  width: 60rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 40rpx;
+  color: #111;
 }
 
-.container{
-  background-color: skyblue;
+.scroll-top {
+  height: 80rpx;
+  line-height: 80rpx;
+  width: auto;
+}
+
+.top-item {
+  display: inline-block;
+  width: 70px;
+  text-align: center;
+  font-size: 26rpx;
+  color: #666;
+  line-height: 80rpx;
+}
+
+.active {
+  font-size: 30rpx;
+  font-weight: 700;
+  color: #333;
+}
+
+.swiper {
+  padding: 20rpx 30rpx;
+  height: 100vh;
+}
+
+.swipers-item {
+  font-size: 32rpx;
+  color: #333;
+  line-height: 60rpx;
+  text-indent: 70rpx;
 }

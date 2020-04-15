@@ -1,0 +1,201 @@
+.find {
+  padding-top: 20rpx;
+}
+
+.items {
+  margin: 0 20rpx;
+}
+
+.items image {
+  width: 94.5%;
+  height: 100%;
+  border-radius: 15rpx;
+}
+
+.navs {
+  padding: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navs-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-icons {
+  font-size: 40rpx;
+  color: #fff;
+  background-color: #E33437;
+  border-radius: 50%;
+  width: 80rpx;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+}
+
+.nav-texts {
+  font-size: 26rpx;
+  color: #6D6D6D;
+  padding-top: 10rpx;
+}
+
+.title-block {
+  padding: 0 20rpx;
+  padding-top: 30rpx;
+}
+
+.title-block .small-title {
+  font-size: 26rpx;
+  color: #BFBFBF;
+}
+
+.title-block .dec-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10rpx;
+  padding-bottom: 30rpx;
+}
+
+.title-block .dec-lt {
+  font-size: 32rpx;
+  color: #333;
+  font-weight: 700;
+}
+
+.title-block .dec-rt {
+  font-size: 26rpx;
+  color: #6D6D6D;
+  padding: 10rpx 20rpx;
+  border: 1rpx solid #eee;
+  border-radius: 50rpx;
+}
+
+
+.content .swipers {
+  height: 300rpx;
+}
+
+.content .tuijian-items image {
+  width: 225rpx;
+  height: 200rpx;
+  border-radius: 15rpx;
+}
+
+/* 超出一行省略 */
+.ellips1 {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+/* 超出两行省略 */
+.ellips {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.content .text {
+  font-size: 24rpx;
+  color: #737373;
+}
+
+.style-swipers {
+  height: 350rpx;
+}
+
+.style-swipers .style-items .style-img {
+  width: 100rpx;
+  height: 100rpx;
+  display: block;
+  border-radius: 15rpx;
+
+}
+
+.swiper-lis {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 40rpx;
+  margin-right: 20rpx;
+  padding-bottom: 20rpx;
+  background-color: aliceblue;
+}
+
+.swiper-lis:nth-last-child(1) {
+  padding-bottom: 0rpx;
+}
+
+.items-lt {
+  display: flex;
+  align-items: center;
+}
+
+.items-lt .style-text {
+  padding-left: 20rpx;
+}
+
+
+.style-text .text-top .title {
+  font-size: 32rpx;
+  color: #333;
+}
+
+.style-text .text-top .name,
+.style-text .desc {
+  font-size: 26rpx;
+  color: #BFBFBF;
+}
+
+.style-swipers .swiper-lis .icon-rt {
+  font-size: 46rpx;
+  color: #E33437;
+}
+
+.content .yuncun {
+  height: 345rpx;
+}
+
+
+.yuncun .detail {
+  padding-top: 20rpx;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.yuncun .detail .icon-img {
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+}
+
+.yuncun .detail-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10rpx;
+}
+
+.yuncun .detail-text view {
+  width: 50%;
+  font-size: 26rpx;
+  color: #BFBFBF;
+}
+
+.yuncun .detail-name {
+  box-sizing: border-box;
+  padding-right: 5rpx;
+}
