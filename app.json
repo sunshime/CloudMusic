@@ -5,7 +5,9 @@
     "components/header/header",
     "components/sideEdge/sideEdge",
     "pages/find/find",
-    "pages/my/my"
+    "pages/my/my",
+    "pages/yuncun/yuncun",
+    "pages/square/square"
   ],
   "window": {
     "backgroundTextStyle": "light",

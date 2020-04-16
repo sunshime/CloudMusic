@@ -1,0 +1,26 @@
+<view class="square">
+  <view class="hot-review">
+    <view class="hot-lt">
+      <view class="lt-top">
+        <text class="title">云村热评墙</text>
+        <text class="iconfont icon-gengduo title-icon"></text>
+      </view>
+      <view class="lt-bottom">
+        <image src="../../images/swiper/1.jpg"></image>
+        <text class="lt-bt-text ellips1">干净的嗓音像是山河潺潺流动的小溪，阳光沐浴其中，透过小溪直视它的灵魂。</text>
+      </view>
+    </view>
+    <view class="hot-rt">
+      <text>Apr.</text>
+      <text class="hot-rt-num">16</text>
+    </view>
+  </view>
+  <view class="content">
+    <view class="ct-left">
+      
+    </view>
+    <view class="ct-right">
+  
+    </view>
+  </view>
+</view>
