@@ -38,11 +38,14 @@
 					</view>
 					<text class="decs">{{item.dec}}</text>
 				</view>
-				<view class="lis">
+			</view>
+			<view class="bom-nav bom-nav-other">
+				<view class="lis" wx:for="{{otherList}}" wx:key="index">
 					<view class="nav-lt">
-						<text class="iconfont icon-wodedingdan icons"></text>
-						<text class="names">我的订单</text>
+						<text class="iconfont {{item.icon}} icons"></text>
+						<text class="names">{{item.name}}</text>
 					</view>
+					<text class="decs">{{item.dec}}</text>
 				</view>
 			</view>
 			<view class="bom-operation">

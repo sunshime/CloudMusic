@@ -4,14 +4,18 @@
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .content {
   width: 80vw;
-  height: auto;
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0.2);
   position: relative;
   padding-top: 40rpx;
+  overflow-y: scroll;
 }
 
 .top-block {
@@ -170,12 +174,17 @@
   color: #C3C3C3;
 }
 
+.bom-nav-other{
+  border-top: 1rpx solid #F5F5F5;
+}
+
 .bom-operation {
   display: flex;
   justify-content: space-around;
   align-items: center;
   border-top: 1rpx solid #F5F5F5;
   height: 85rpx;
+  padding-bottom: 30rpx;
 }
 
 .bom-operation .lis .icons {

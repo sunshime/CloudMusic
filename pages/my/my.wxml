@@ -1,0 +1,51 @@
+<view class="my">
+	<view class="headers">
+		<view class="avator">
+			<text class="iconfont icon-ren img-icon"></text>
+			<text class="avator-text"> 登录立享手机电脑多端同步</text>
+			<text class="avator-login">立即登录</text>
+		</view>
+
+		<view class="nav">
+			<view class="list" wx:for="{{navList}}" wx:key="index">
+				<text class="iconfont {{item.icon}} list-icon"></text>
+				<text class="list-name">{{item.name}}</text>
+			</view>
+		</view>
+	</view>
+	<view class="content">
+		<view class="ct-firt">
+			<view class="title">
+				<text class="title-text">我的音乐</text>
+				<text class="iconfont icon-gengduo title-icon"></text>
+			</view>
+			<swiper class="swipers" previous-margin="20rpx" next-margin="30rpx" display-multiple-items="3">
+				<swiper-item class="swiper-item" wx:for="{{swiperList}}" wx:key="index" style="width: 50rpx;">
+					<view class="swiper-list">
+						<text class="list-tj">推荐</text>
+						<view class="list-middle">
+							<text class="iconfont {{item.icon}} mdl-icon"></text>
+							<text class="mdl-name">{{item.name}}</text>
+						</view>
+						<text class="list-desc">{{item.desc}}</text>
+					</view>
+				</swiper-item>
+			</swiper>
+		</view>
+		<view class="ct-sec">
+			<view class="sec-title">
+				<view class="">
+					<text class="sec-song">创建歌单</text>
+					<text class="sec-num">0</text>
+					<text class="sec-set-song">收藏歌单</text>
+					<text class="sec-num">0</text>
+				</view>
+				<text class="iconfont icon-gengduoxiao sec-icon"></text>
+			</view>
+			<view class="sec-cont">
+				<text class="iconfont icon-tianjia sec-cont-icon"></text>
+				<text class="sec-cont-text">导入外部歌单</text>
+			</view>
+		</view>
+	</view>
+</view>

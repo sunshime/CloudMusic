@@ -53,6 +53,52 @@ Page({
         dec: ''
       }
     ],
+    otherList: [{
+        icon: "icon-wodedingdan",
+        name: '我的订单',
+        dec: ''
+      },
+      {
+        icon: "icon-dingshi",
+        name: '定时停止播放',
+        dec: ''
+      },
+      {
+        icon: "icon-saoyisao",
+        name: '扫一扫',
+        dec: ''
+      },
+      {
+        icon: "icon-闹钟",
+        name: 'naozhong',
+        dec: ''
+      },
+      {
+        icon: "icon-zaixianmianliuliang",
+        name: '在线听歌免流量',
+        dec: ''
+      },
+      {
+        icon: "icon-ziyuan",
+        name: '音乐红包',
+        dec: ''
+      },
+      {
+        icon: "icon-闹钟",
+        name: 'naozhong',
+        dec: ''
+      },
+      {
+        icon: "icon-Coupon",
+        name: '优惠券',
+        dec: ''
+      },
+      {
+        icon: "icon-moshi-shefangmoshi",
+        name: '青少年模式',
+        dec: ''
+      }
+    ],
     operationList: [{
         icon: "icon-yejianmoshi",
         name: '夜间模式'

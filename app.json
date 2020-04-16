@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "components/header/header",
     "components/sideEdge/sideEdge",
-    "pages/find/find"
+    "pages/find/find",
+    "pages/my/my"
   ],
   "window": {
     "backgroundTextStyle": "light",
